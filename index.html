@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamamlama Kodu</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="complete.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Create Top Bar for Help & Instructions -->
+    <div class="top-bar">
+        <div class="title-text">Tamamlama Kodu</div>
+        <div class="tabs">
+            <button class="tab-button" onclick="showAlert('Home')">Ana Sayfa</button>
+            <button class="tab-button" onclick="showAlert('Instructions')">Talimatlar</button>
+            <button class="tab-button" onclick="showAlert('Contact')">İletişim</button>
+        </div>
+    </div>
+
+    <!-- Create Title and Text Container for Instructions -->
+    <div class="title-container">
+        <h1 id="completionCode"><strong>Tamamlama Kodu</strong></h1>
+        <h2 id="completionCodeMessage" style="display: none;">Ödeme almak için tamamlama kodunuzu not edin.</h2>
+    </div>
+
+    <!-- Create Bottom Bar -->
+    <div class="bottom-bar">
+        <div class="title-text2">University of Dundee</div>
+    </div>
+
+
+
+    <!-- Redirect Button -->
+    <button id="linkButton" style="display: none;" disabled><strong>Çalışma sona erdi. Bu sayfayı güvenle kapatabilirsiniz!</strong></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
